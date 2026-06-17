@@ -49,3 +49,11 @@ Use a stack:
 ## Python Solution
 ```python
 # paste solution here
+
+
+## Day 5 - 3Sum Closest
+
+- Problem: 3Sum Closest
+- Approach: Sorting + Two Pointers
+- Time Complexity: O(n²)
+- Space Complexity: O(1)
