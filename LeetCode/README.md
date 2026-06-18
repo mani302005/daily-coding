@@ -57,3 +57,22 @@ Use a stack:
 - Approach: Sorting + Two Pointers
 - Time Complexity: O(n²)
 - Space Complexity: O(1)
+
+
+## Day 6 - Maximum Subarray (LeetCode 53)
+
+### Problem
+Find the contiguous subarray with the largest sum and return its sum.
+
+### Approach
+Used Kadane's Algorithm:
+- Track current subarray sum.
+- Either start a new subarray or extend the existing one.
+- Keep updating the maximum sum found.
+
+### Complexity
+- Time: O(n)
+- Space: O(1)
+
+### Result
+Accepted ✅
