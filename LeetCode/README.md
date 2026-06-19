@@ -76,3 +76,20 @@ Used Kadane's Algorithm:
 
 ### Result
 Accepted ✅
+
+# Day 7 - First Missing Positive
+
+## Problem
+Find the smallest missing positive integer in an unsorted array.
+
+## Approach
+- Use Cyclic Sort.
+- Place each number `x` at index `x-1`.
+- Find the first index where `nums[i] != i+1`.
+
+## Complexity
+- Time: O(n)
+- Space: O(1)
+
+## Result
+Accepted ✅
