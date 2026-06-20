@@ -93,3 +93,25 @@ Find the smallest missing positive integer in an unsorted array.
 
 ## Result
 Accepted ✅
+
+
+
+# Day 06 - Merge K Sorted Lists
+
+## Problem
+Merge k sorted linked lists and return one sorted linked list.
+
+## Approach
+- Use a Min Heap (Priority Queue).
+- Insert the first node of each linked list into the heap.
+- Repeatedly extract the smallest node.
+- Add its next node to the heap.
+- Continue until the heap is empty.
+
+## Complexity
+- Time: O(N log K)
+- Space: O(K)
+
+Where:
+- N = Total number of nodes
+- K = Number of linked lists
