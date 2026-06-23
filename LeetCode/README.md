@@ -115,3 +115,12 @@ Merge k sorted linked lists and return one sorted linked list.
 Where:
 - N = Total number of nodes
 - K = Number of linked lists
+
+
+Given a sorted array, remove duplicates so that each element appears at most twice.
+The modification must be done in-place without using extra space.
+Maintain the relative order of the elements.
+Return the length of the valid array after removing extra duplicates.
+A two-pointer approach is used to efficiently keep only up to two occurrences of each number.
+
+# Day 11 - LeetCode 1297: Maximum Number of Occurrences of a Substring
