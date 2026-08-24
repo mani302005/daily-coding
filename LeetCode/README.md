@@ -1,6 +1,6 @@
 # Daily Coding
 
-This repository contains my daily coding practice.
+This repository contains my daily coding practice.  
 
 Problem: 3Sum
 
